@@ -1,0 +1,51 @@
+nav{
+    border-bottom:1px solid #d7d7d7;
+}
+.head{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 1rem;
+    padding-right: 6rem;
+    height: 3rem;
+}
+.logo{
+    max-width: 130px;
+    max-height: 25px;
+    margin-bottom: 1rem;
+    margin-top:  1rem;
+}
+.busca{
+	border-radius:4px;
+	padding: 3px;
+	height: 20px;
+	width: 270px;
+    background-color: rgba(201, 197, 197, 0.432);
+    margin-left: -12rem;
+    max-width: 250px;
+}
+.buscar{
+	border: 0px;
+	width: 240px;
+	position: relative;
+	background: transparent;
+	outline: none;
+	bottom: 6px;
+	padding: 3px;
+    max-width: 100px;
+}
+.buscador{
+	width: 20px;
+	border: 0px;
+	position: relative;
+	top:1px;
+}
+.iconos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -12rem;
+}
+.icon{
+    padding-right: 2rem;
+}
